@@ -22,7 +22,7 @@ setInterval(() => {
       console.log("data stored");
     }
   );
-}, 60000);
+}, 15000);
 
 const PORT = process.env.PORT || 4000;
 
