@@ -16,12 +16,12 @@ setInterval(() => {
       console.log("data stored");
     }
   );
-}, 1000);
+}, 5000);
 
 const PORT = process.env.PORT || 4000;
 
 app.get("/", (req, res) => {
-  res.sendFile(("date-time.html", "utf8"));
+  res.sendFile("date-time.html", "utf8");
 });
 
 app.listen(PORT, () => console.log("listening on port", PORT));
