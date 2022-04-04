@@ -13,7 +13,7 @@ setInterval(() => {
     "utf-8",
     (err) => {
       if (err) throw err;
-      console.log("data stored");
+      console.log("time updated");
     }
   );
 }, 5000);
